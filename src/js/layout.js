@@ -6,7 +6,7 @@ import { Home } from "./views/home";
 import { Acercademi } from "./views/acercademi";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
-
+import { Disenografico } from "./views/disenografico";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
@@ -27,6 +27,10 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/acercademi">
 							<Acercademi />
+						</Route>
+
+						<Route exact path="/disenografico">
+							<Disenografico />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
